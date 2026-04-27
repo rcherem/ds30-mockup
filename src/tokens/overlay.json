@@ -1,0 +1,70 @@
+{
+  "color": {
+    "overlay": {
+      "primary": {
+        "medium": {
+          "value": "{color.blue.500}",
+          "description": "Primary overlay at 32% opacity",
+          "extensions": {
+            "opacity": 0.32
+          }
+        },
+        "default": {
+          "value": "{color.blue.500}",
+          "description": "Primary overlay at 16% opacity",
+          "extensions": {
+            "opacity": 0.16
+          }
+        },
+        "subtle": {
+          "value": "{color.blue.500}",
+          "description": "Primary overlay at 8% opacity",
+          "extensions": {
+            "opacity": 0.08
+          }
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.bluegray.500}",
+          "description": "Secondary overlay at 16% opacity",
+          "extensions": {
+            "opacity": 0.16
+          }
+        },
+        "subtle": {
+          "value": "{color.bluegray.500}",
+          "description": "Secondary overlay at 8% opacity",
+          "extensions": {
+            "opacity": 0.08
+          }
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.black}",
+          "description": "Disabled overlay at 12% opacity",
+          "extensions": {
+            "opacity": 0.12
+          }
+        },
+        "subtle": {
+          "value": "{color.black}",
+          "description": "Disabled overlay at 8% opacity",
+          "extensions": {
+            "opacity": 0.08
+          }
+        }
+      },
+      "modal": {
+        "mask": {
+          "value": "{color.blue.900}",
+          "description": "Modal mask overlay at 24% opacity",
+          "extensions": {
+            "opacity": 0.24
+          }
+        }
+      }
+    }
+  }
+}
